@@ -1,0 +1,24 @@
+"*":
+  "atom-clock":
+    dateFormat: "MMMM Do, dddd, HH:mm:ss"
+  core:
+    telemetryConsent: "no"
+    useTreeSitterParsers: false
+  editor:
+    fontSize: 17
+    tabLength: 4
+  "exception-reporting":
+    userId: "837234d0-a196-4fda-a33d-e10b001f31e8"
+  "gcc-make-run":
+    C: "gcc-9"
+  kite:
+    installPausedNotifShown: true
+    showWelcomeNotificationOnStartup: false
+  "linter-gcc":
+    execPath: "gcc-9"
+    gccDefaultCFlags: "-c -Wall -fsyntax-only"
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  welcome:
+    showOnStartup: false

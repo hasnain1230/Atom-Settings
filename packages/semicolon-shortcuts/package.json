@@ -1,0 +1,53 @@
+{
+  "_from": "https://www.atom.io/api/packages/semicolon-shortcuts/versions/2.1.1/tarball",
+  "_id": "semicolon-shortcuts@2.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-IX4Zx19QQcIMutoyj9CEWUJ0weZjppTqntU9Pu4ps+5MtXlys24BRkv5SB7MICMm0ty8gj2JJnKu2tFc0SoLxQ==",
+  "_location": "/semicolon-shortcuts",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/semicolon-shortcuts/versions/2.1.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/semicolon-shortcuts/versions/2.1.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/semicolon-shortcuts/versions/2.1.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/semicolon-shortcuts/versions/2.1.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/semicolon-shortcuts/versions/2.1.1/tarball",
+  "_shasum": "276c5a16e01962ee9b103fa5c3023ce24865f2a9",
+  "_spec": "https://www.atom.io/api/packages/semicolon-shortcuts/versions/2.1.1/tarball",
+  "_where": "/private/var/folders/rk/x8cdyvbj71x40tv0zt_ftz5c0000gn/T/apm-install-dir-20211119-11882-sibtb2.3tyl",
+  "activationCommands": {
+    "atom-workspace": [
+      "trailing-semicolon:semicolon",
+      "trailing-semicolon:comma",
+      "trailing-semicolon:semicolon-newline",
+      "trailing-semicolon:comma-newline",
+      "trailing-semicolon:semicolon-eol"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/jolivr/semicolon-shortcuts/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Add (or remove) a semicolon (or a comma) at the end of the line.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jolivr/semicolon-shortcuts#readme",
+  "license": "MIT",
+  "main": "./lib/trailing-semicolon",
+  "name": "semicolon-shortcuts",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolivr/semicolon-shortcuts.git"
+  },
+  "version": "2.1.1"
+}

@@ -1,0 +1,71 @@
+{
+  "_from": "https://www.atom.io/api/packages/autosave-onchange/versions/1.5.1/tarball",
+  "_id": "autosave-onchange@1.5.1",
+  "_inBundle": false,
+  "_integrity": "sha512-8XN+F+qoLtlox1VpBGbQJSz3vQF6mCPwduTBvny8e298C5YOFZf+HkesUA83mghQCrkfiZ00gGMU0myCTtm5WA==",
+  "_location": "/autosave-onchange",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/autosave-onchange/versions/1.5.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/autosave-onchange/versions/1.5.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/autosave-onchange/versions/1.5.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/autosave-onchange/versions/1.5.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/autosave-onchange/versions/1.5.1/tarball",
+  "_shasum": "97c7dd723c7cbf7d0bedef604c4cc11e572eea54",
+  "_spec": "https://www.atom.io/api/packages/autosave-onchange/versions/1.5.1/tarball",
+  "_where": "/private/var/folders/rk/x8cdyvbj71x40tv0zt_ftz5c0000gn/T/apm-install-dir-20211119-11836-1ajfleu.aaqk",
+  "bugs": {
+    "url": "https://github.com/ChexWarrior/atom-autosave-onchange/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  },
+  "deprecated": false,
+  "description": "This plugin automatically saves a file after a change is made to it.",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-error": "^0.1.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-run": "^1.7.1",
+    "gulp-spawn": "^0.3.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ChexWarrior/atom-autosave-onchange#readme",
+  "keywords": [
+    "autosave",
+    "auto-save",
+    "save",
+    "delay",
+    "debounce",
+    "auto",
+    "automatic",
+    "refresh",
+    "onDichange",
+    "onDidStopChanging",
+    "unicorn",
+    "isthatcentered"
+  ],
+  "license": "MIT",
+  "main": "./lib/autosave-onchange",
+  "name": "autosave-onchange",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChexWarrior/atom-autosave-onchange.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "gulp",
+    "test": "karma start"
+  },
+  "version": "1.5.1"
+}

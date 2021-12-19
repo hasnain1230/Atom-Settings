@@ -1,0 +1,10 @@
+storage
+compile-cache
+recovery
+dev
+.npm
+.node-gyp
+blob-store
+.apm/
+.atom-socket-secret-hasnain1230-1.58.0
+

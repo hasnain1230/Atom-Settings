@@ -1,0 +1,5 @@
+'.platform-darwin atom-workspace':
+  'ctrl-r': 'gcc-make-run:compile-run'
+
+ 'atom-text-editor':
+  'shift-cmd-;': 'trailing-semicolon:semicolon'
